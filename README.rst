@@ -1,24 +1,24 @@
-pytest-selenium
-===============
+pytest-webdriver
+================
 
-pytest-selenium is a plugin for `py.test <http://pytest.org>`_ that provides
+pytest-webdriver is a plugin for `py.test <http://pytest.org>`_ that provides
 support for running `Selenium <http://seleniumhq.org/>`_ based tests. This
 plugin is still in development. Please check back for updates.
 
-.. image:: https://img.shields.io/pypi/l/pytest-selenium.svg
-   :target: https://github.com/davehunt/pytest-selenium/blob/master/LICENSE
+.. image:: https://img.shields.io/pypi/l/pytest-webdriver.svg
+   :target: https://github.com/davehunt/pytest-webdriver/blob/master/LICENSE
    :alt: License
-.. image:: https://img.shields.io/pypi/v/pytest-selenium.svg
-   :target: https://pypi.python.org/pypi/pytest-selenium/
+.. image:: https://img.shields.io/pypi/v/pytest-webdriver.svg
+   :target: https://pypi.python.org/pypi/pytest-webdriver/
    :alt: PyPI
-.. image:: https://img.shields.io/travis/davehunt/pytest-selenium.svg
-   :target: https://travis-ci.org/davehunt/pytest-selenium/
+.. image:: https://img.shields.io/travis/davehunt/pytest-webdriver.svg
+   :target: https://travis-ci.org/davehunt/pytest-webdriver/
    :alt: Travis
-.. image:: https://img.shields.io/github/issues-raw/davehunt/pytest-selenium.svg
-   :target: https://github.com/davehunt/pytest-selenium/issues
+.. image:: https://img.shields.io/github/issues-raw/davehunt/pytest-webdriver.svg
+   :target: https://github.com/davehunt/pytest-webdriver/issues
    :alt: Issues
-.. image:: https://img.shields.io/requires/github/davehunt/pytest-selenium.svg
-   :target: https://requires.io/github/davehunt/pytest-selenium/requirements/?branch=master
+.. image:: https://img.shields.io/requires/github/davehunt/pytest-webdriver.svg
+   :target: https://requires.io/github/davehunt/pytest-webdriver/requirements/?branch=master
    :alt: Requirements
 
 Sauce Labs integration

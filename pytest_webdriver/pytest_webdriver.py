@@ -140,7 +140,7 @@ def pytest_runtest_makereport(__multicall__, item, call):
                         provider.additional_html(driver.session_id)))
                 passed = report.passed or (report.failed and xfail)
                 provider.update_status(item.config, driver.session_id, passed)
-        report.sections.append(('pytest-selenium', '\n'.join(extra_summary)))
+        report.sections.append(('pytest-webdriver', '\n'.join(extra_summary)))
         report.extra = extra
     return report
 
